@@ -1,1 +1,6 @@
-Estudo
+Estudo:
+08/11/2021
+Hoje eu estudei:
+- Template com RainTPL
+- SlimFramework
+- Criando diretórios virtuais
