@@ -24,7 +24,9 @@
 $tpl = new Tpl;
 
 // assign a variable
-$tpl->assign( "name", "Obi Wan Kenoby" );
+$tpl->assign( "autor", "MatheusOlivr" );
+$tpl->assign( "versao", "1.0" );
+$tpl->assign( "linguagem", "PHP" );
 
 // assign an array
 $tpl->assign( "week", array( "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" ) );
