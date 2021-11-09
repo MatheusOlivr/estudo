@@ -1,8 +1,7 @@
 <?php 
 	if ($_SERVER["REQUEST_METHOD"] === "POST")
 	{
-		$comando = escapeshellcmd($_POST["inputComando"]);
-		var_dump($comando);
+		$comando = $_POST["inputComando"];
 		// essa função executa funções do sistema
 		system($comando);
 	}

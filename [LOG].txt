@@ -4,3 +4,7 @@ Hoje eu estudei:
 - Template com RainTPL
 - SlimFramework
 - Criando diretórios virtuais
+
+09/11/2021
+- Estudei sobre Command Injector
+- Estudei sobre Sql injector
