@@ -1,1 +1,4 @@
 REVISÃO1DIA
+09/11/2021
+Foi revisado o conteúdo sobre slimframework T57
+Foi revisado o conteúdo sobre virtualhost T56
