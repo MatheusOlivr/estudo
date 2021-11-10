@@ -8,13 +8,21 @@
 <?php
 	if ($_SERVER["REQUEST_METHOD"] === "POST")
 	{
-		$id = $_POST["inputId"];
-		$conexao = new PDO("mysql:dbname=bancodados;host=localhost","root","");
-		$stmt = $conexao->prepare("SELECT * FROM cadastro WHERE id = $id");
-		$stmt->execute();
-		$resultado = $stmt->fetchAll(PDO::FETCH_ASSOC);
-		echo "<br>";
-		print_r($resultado);
+		if (!is_numeric($_POST["inputId"]) || strlen($_POST["inputId"])>5)
+		{
+			exit("peguei você");
+		}
+		else
+		{
+			$id = $_POST["inputId"];
+			$conexao = new PDO("mysql:dbname=bancodados;host=localhost","root","");
+			$stmt = $conexao->prepare("SELECT * FROM cadastro WHERE id = $id");
+			$stmt->execute();
+			$resultado = $stmt->fetchAll(PDO::FETCH_ASSOC);
+			echo "<br>";
+			print_r($resultado);
+		}
+		
 	}
 ?>
 <!--
