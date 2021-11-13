@@ -8,3 +8,7 @@ Foi revisado o conteúdo sobre sql Injector
 11/11/2021
 Foi revisado o conteúdo sobre permissões de pasta
 Foi revisado o conteúdo sobre recaptcha
+13/11/2021
+Foi revisado o conteúdo sobre criptografia
+Foi revisado o conteúdo sobre sessiod id hacking
+ 
